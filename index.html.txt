@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jalwa Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER SECTION -->
+  <header class="header">
+    <img src="images/logo.png" class="logo" alt="Jalwa Game Logo" />
+    <button class="register-btn">REGISTER NOW</button>
+  </header>
+
+  <!-- WINNING PROOFS SECTION -->
+  <section class="winning-proofs">
+    <h2>Winning Proofs</h2>
+    <div class="proofs-row">
+      <img src="images/proof-left.png" class="arrow" />
+      <img src="images/proof1.png" class="proof" />
+      <img src="images/proof2.png" class="proof" />
+      <img src="images/proof-right.png" class="arrow" />
+    </div>
+  </section>
+
+  <!-- RECHARGE & OFFERS SECTION -->
+  <section class="offer-section">
+    <img src="images/recharge-banner.png" class="banner" />
+    <div class="offer-list">
+      <p>1. Daily Free Deposit</p>
+      <p>2. Daily ₹200 Gifted</p>
+      <p>3. Daily Super Short Game</p>
+    </div>
+  </section>
+
+  <!-- ACTION BUTTONS -->
+  <section class="action-buttons">
+    <button>Register</button>
+    <button>₹200 Gift</button>
+    <button>SureShot Prediction</button>
+  </section>
+
+  <!-- REFERRAL BONUS -->
+  <section class="referral-section">
+    <img src="images/referral.png" class="full" />
+  </section>
+
+  <!-- ADS FUNDS + AGENT SYSTEM -->
+  <section class="ads-agent-section">
+    <img src="images/adsfunds.png" class="half" />
+    <img src="images/agent-system.png" class="half" />
+  </section>
+
+  <!-- BECOME AGENT -->
+  <section class="become-agent">
+    <img src="images/become-agent.png" />
+  </section>
+
+  <!-- TOP SITES -->
+  <section class="top-sites">
+    <h2>Top Sites</h2>
+    <div class="site-row">
+      <img src="images/jalwa-icon.png" />
+      <div class="info">Signup: 250 | Free: 25</div>
+      <button>Register</button>
+    </div>
+    
+    <div class="site-row">
+      <img src="images/7trump.png" />
+      <div class="info">Signup: 32 | Free: 3</div>
+      <button>Register</button>
+    </div>
+  </section>
+
+</body>
+</html>
