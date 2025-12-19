@@ -1,5 +1,17 @@
 User-agent: *
-Disallow: /private/
 Allow: /
 
-Sitemap: https://jalwagame-com.vercel.app/sitemap.xml
+# Block useless / private paths (agar future me bane)
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /api/
+
+# Allow important pages
+Allow: /login
+Allow: /apk-download
+Allow: /vip-tips
+
+# Sitemap location
+Sitemap: https://jalwagame.beauty/sitemap.xml
