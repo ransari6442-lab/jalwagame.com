@@ -1,17 +1,13 @@
 User-agent: *
-Allow: /
-
-# Block useless / private paths (agar future me bane)
 Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /private/
 Disallow: /temp/
 Disallow: /api/
 
-# Allow important pages
+# Only allow Login and Register pages
 Allow: /login
-Allow: /apk-download
-Allow: /vip-tips
+Allow: /register
 
 # Sitemap location
 Sitemap: https://jalwagame.beauty/sitemap.xml
