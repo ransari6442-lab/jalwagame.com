@@ -1,13 +1,12 @@
 User-agent: *
+Allow: /
+
+# Block private/system folders
 Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /private/
 Disallow: /temp/
 Disallow: /api/
-
-# Only allow Login and Register pages
-Allow: /login
-Allow: /register
 
 # Sitemap location
 Sitemap: https://jalwagame.beauty/sitemap.xml
